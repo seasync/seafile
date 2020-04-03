@@ -1,3 +1,0 @@
-LIBRARY seafile_custom
-EXPORTS
-RemoveExtDll
