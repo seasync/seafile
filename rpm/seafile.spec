@@ -59,5 +59,8 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %{_bindir}/seaf-cli
 %{_bindir}/seaf-daemon
+%{_libdir}/libseafile*
+%{_libdir}/pkgconfig/libseafile*
 %{python3_sitearch}
 %{_includedir}/seafile/*
+%{_mandir}/**/seaf-*
