@@ -16,7 +16,7 @@ BuildRequires:	autoconf
 BuildRequires:	libtool
 BuildRequires:	sqlite-devel
 BuildRequires:  libsearpc
-BuildRequires:  libevent
+BuildRequires:  libevent-devel
 BuildRequires:	vala
 BuildRequires:	intltool
 BuildRequires:  libuuid-devel
