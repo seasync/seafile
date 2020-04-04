@@ -22,12 +22,14 @@ BuildRequires:	intltool
 BuildRequires:  libuuid-devel
 BuildRequires:  zlib-devel
 BuildRequires:  libcurl-devel
+BuildRequires:	openssl-devel
 
 Requires:	libsearpc
 Requires:	sqlite
 Requires:	libevent
 Requires:	zlib
 Requires: 	libcurl
+Requires:	openssl
 
 %description
 The RPC framework for Seafile
