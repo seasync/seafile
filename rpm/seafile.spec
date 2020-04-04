@@ -20,10 +20,12 @@ BuildRequires:  libevent
 BuildRequires:	vala
 BuildRequires:	intltool
 BuildRequires:  libuuid-devel
+BuildRequires:  zlib-devel
 
 Requires:	libsearpc
 Requires:	sqlite
 Requires:	libevent
+Requires:	zlib
 
 %description
 The RPC framework for Seafile
