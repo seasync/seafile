@@ -19,6 +19,7 @@ BuildRequires:  libsearpc
 BuildRequires:  libevent
 BuildRequires:	vala
 BuildRequires:	intltool
+BuildRequires:  libuuid-devel
 
 Requires:	libsearpc
 Requires:	sqlite
